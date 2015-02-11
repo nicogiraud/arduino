@@ -6,7 +6,7 @@
 Les librairies ont été testées sur les cartes suivantes :
 - Adafruit Arduino Trinket Pro 5V
 - Arduino Uno
-- Arduino nano pro (chinois)
+- Arduino nano (chinois)
 
 ##Bitmap
 Stockage et manipulation de données bitmap à 1 bit par pixel (monochrome)
