@@ -1,4 +1,4 @@
 arduino
 =======
 
-tutoriels, code source et librairies arduino originales
+tutoriels, code et librairies arduino originales
