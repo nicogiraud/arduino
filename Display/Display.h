@@ -19,9 +19,6 @@
 #define HT16K33_BLINK_1HZ  2
 #define HT16K33_BLINK_HALFHZ  3
 
-
-
-
 class Font
 {
 	public:
@@ -33,9 +30,6 @@ class Font
 		uint16_t byte_per_char;
 		const uint8_t *data;
 };
-
-
-
 
 class Bitmap
 {
@@ -54,9 +48,6 @@ class Bitmap
 		byte *pixels;
 };
 
-
-
-
 class Matrix16x8 : public Bitmap 
 {
 	public:
@@ -69,4 +60,3 @@ class Matrix16x8 : public Bitmap
 	protected:
 		uint8_t i2c_addr;
 };
-
