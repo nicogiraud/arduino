@@ -7,11 +7,6 @@
 
 #include "Display.h"
 
-
-
-
-
-
 /*
 ****
 Font
@@ -64,11 +59,6 @@ bool Font::getPixel(uint16_t char_index, uint16_t x, uint16_t y)
 	// this pixel value
 	return (byte << digit_index) & 0x80;
 }
-
-
-
-
-
 
 
 /* 
@@ -205,8 +195,6 @@ void Bitmap::drawChar(Font font, uint16_t char_index, uint16_t x, uint16_t y)
 		}
 	}	
 }
-
-
 
 
 /*
